@@ -737,7 +737,7 @@ else
     {
         Design = !Design;
         StateHasChanged();
-        await Task.Delay(100);
+        await Task.Delay(500);
         await Js.InvokeVoidAsync("printInvoke");
         Design = !Design;
     }
