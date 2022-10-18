@@ -4,15 +4,20 @@
 
 <PageTitle>Portfolio Maker</PageTitle>
 <InputFile id="fileInput" OnChange="UploadFiles" hidden multiple />
-<MudAppBar class="unprintable" Fixed="true" Color="Color.Primary" Elevation="1">
-    <MudText Typo="Typo.h6" Style="color:white">Build your resume easily for free</MudText>
-</MudAppBar>
-<MudItem xs="12" Class="ma-8">
-</MudItem>
-<br />
+
+
+
 @if (Design)
 {
-    <MudGrid Spacing="0">
+    <div class="unprintable">
+        <MudAppBar Fixed="true" Color="Color.Primary" Elevation="1">
+            <MudText Typo="Typo.h6" Style="color:white">Build your resume easily for free</MudText>
+        </MudAppBar>
+        <MudItem xs="12" Class="ma-8">
+        </MudItem>
+        <br />
+    </div>
+    <MudGrid Spacing="0" class="unprintable">
         <MudItem lg="12" xs="12">
             <MudGrid Spacing="0">
                 <MudItem lg="2">
